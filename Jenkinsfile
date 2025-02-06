@@ -3,7 +3,7 @@ def gv
 pipeline {
     agent any
     tools {
-        maven 'maven-3.6' // Usamos la herramienta Maven definida en Jenkins
+        maven 'maven-3.6'  // Asegúrate de que esta herramienta esté configurada en Jenkins
     }
     stages {
         stage("init") {
